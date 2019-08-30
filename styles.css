@@ -11,7 +11,7 @@ body {
 .container {
     margin: 5vh 0 5vh 0;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .right {
@@ -31,4 +31,29 @@ body {
 
 .block > .muted {
     opacity: 0.5;
+}
+
+.block > .name > .muted {
+    opacity: 0.5;
+}
+
+.padded {
+    padding: 10px;
+}
+
+.padded-more {
+    padding: 0 15px;
+}
+
+.label {
+    margin: 2px!important;
+}
+
+.extras {
+    padding: 50px 80px;
+    margin-bottom: 5vh;
+}
+
+.container2 {
+    display: flex;
 }
